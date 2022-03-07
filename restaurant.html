@@ -11,109 +11,139 @@
 
 <body>
     <header>
-        <div class="headerlogo">
-            <a href="../index.html">
-                <span class="headerlogo__icon">
-                    <i class="fa-solid fa-arrow-left"></i>
-                </span>
-
-                <img src="./images/logo/ohmyfood.png"/>
-            </a>
-        </div>
-       
+        <a href="../index.html" class="headerlogo">
+            <i class="fa-solid fa-arrow-left"></i>
+            <img src="./images/logo/ohmyfood.png"/>
+        </a>
     </header>
-    <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="banner-resto" id="town">
+    
+    <main>
 
-    <main class="cardsMenu">
-        <div class="cardsMenu__title">
-            <h1> La palette du goût</h2>
-            <i class="fa fa-heart card__text__icon heart_bg">
-                <i class="fa fa-heart card__text__icon heart_stroke"></i>
-            </i>
-        </div>
+        <img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="banner-resto" class="restaurant__image">
 
-        <section class="choosenter">
+        <div class="restaurant__main">
 
-            <!-- Entrées -->
-            <section class="choosenter">
-                <h2 class="choosenter__title">entrées</h2>
-                <div class="choosenter__list">
-                    <h3>Fricassé d'escargot</h3>
-                    <p>Au piment d'espelette</p>
-                    <span>25€</span>
-                </div>
-
-                <div class="choose__food">
-                    <h3>Foie gras de canard mi-cuit</h3>
-                    <p>Et ses cpeaux de truffe noire</p>
-                    <span>35€</span>
-                </div>
-
-                <div class="choose__dessert">
-                    <h3>Oeuf au plat</h3>
-                    <p>Assaisonné à la truffe sur lit de...</p>
-                    <span>20€</span>
-                </div>
-
-
-            </section>
-
-            <!-- Plats -->
-            <section class="fonct">
-                <h1 class="description__title">PLATS</h1>
-                <div class="description__button">
-                    <h2>Coquilles Saint-Jacques</h2>
-                    <p>Accompagnées d'une purée de panais</p>
-                    <span>40€</span>
-                </div>
-            
-                <div class="description__button">
-                        <h2>Magret de canard</h2>
-                        <p>Et parmentier de pommes de terre</p>
-                        <span>35€</span>
-                    </div>
-            
-                    <div class="description__button">
-                        <h2>Pigeonne d'ille-et-vilaine</h2>
-                        <p>Sur son lit de gnocchis sur légumes</p>
-                        <span>44€</span>
-                    </div>
-                </div>
-            
-            </section>
-
-            <!-- Desserts -->
-            <section class="fonct">
-                <h1 class="description__title">DESSERTS</h1>
-                <div class="description__button">
-                    <h2>Pétales de violettes glacés</h2>
-                    <p>Et purée de noisettes</p>
-                    <span>18€</span>
-                </div>
-        
-                <div class="description__button">
-                    <h2>Fondant au chocolat</h2>
-                    <p>Revisité</p>
-                    <span>22€</span>
-                </div>
-        
-                <div class="description__button">
-                    <h2>Millefeuille croustillant</h2>
-                    <p>Myrtilles et pâte d'amande</p>
-                    <span>23€</span>
-                </div>
-        
-            </section>
-
-            <!-- commander -->
-            <section class="description">
-            
-                <div class="description__button">
-                    <a href="#">Commander</a>
+            <div class="restaurant__main__title">
+                <h1> La palette du goût</h2>
+                <!-- <i class="fa fa-heart card__text__icon heart_bg">
+                    <i class="fa fa-heart card__text__icon heart_stroke"></i>
+                </i> -->
             </div>
-            </section>
 
-        </section>
+            <div class="menus">
+
+                <!-- Entrées -->
+                <section class="menu">
+
+                    <h2 class="menu__title">entrées</h2>
+
+                    <div class="menu__plat">
+                        <div class="menu__plat__text">
+                            <h3>Fricassé d'escargot</h3>
+                            <p>Au piment d'espelette</p>
+                        </div>
+                        <div class="menu__plat__price">25€</div>
+                        <div class="menu__plat__check"></div>
+                    </div>
+
+                    <div class="menu__plat">
+                        <div class="menu__plat__text">
+                            <h3>Foie gras de canard mi-cuit</h3>
+                            <p>Et ses cpeaux de truffe noire</p>
+                        </div>
+                        <div class="menu__plat__price">35€</div>
+                        <div class="menu__plat__check"></div>
+                    </div>
+
+                    <div class="menu__plat">
+                        <div class="menu__plat__text">
+                            <h3>Oeuf au plat</h3>
+                            <p>Assaisonné à la truffe sur lit de...</p>
+                        </div>
+                        <div class="menu__plat__price">20€</div>
+                        <div class="menu__plat__check"></div>
+                    </div>
+
+                </section>
+
+                <!-- Plats -->
+                <section class="menu">
+
+                    <h2 class="menu__title">PLATS</h2>
+
+                    <div class="menu__plat">
+                        <div class="menu__plat__text">
+                            <h3>Coquilles Saint-Jacques</h3>
+                            <p>Accompagnées d'une purée de panais</p>
+                        </div>
+                        <div class="menu__plat__price">40€</div>
+                        <div class="menu__plat__check"></div>
+                    </div>
+                
+                    <div class="menu__plat">
+                        <div class="menu__plat__text">
+                            <h3>Magret de canard</h3>
+                            <p>Et parmentier de pommes de terre</p>
+                        </div>
+                        <div class="menu__plat__price">35€</div>
+                        <div class="menu__plat__check"></div>
+                    </div>
+            
+                    <div class="menu__plat">
+                        <div class="menu__plat__text">
+                            <h3>Pigeonne d'ille-et-vilaine</h3>
+                            <p>Sur son lit de gnocchis sur légumes</p>
+                        </div>
+                        <div class="menu__plat__price">44€</div>
+                        <div class="menu__plat__check"></div>
+                    </div>
+                
+                </section>
+
+                <!-- Desserts -->
+                <section class="menu">
+
+                    <h2 class="menu__title">DESSERTS</h2>
+
+                    <div class="menu__plat">
+                        <div class="menu__plat__text">
+                            <h3>Pétales de violettes glacés</h3>
+                            <p>Et purée de noisettes</p>
+                        </div>
+                        <div class="menu__plat__price">18€</div>
+                        <div class="menu__plat__check"></div>
+                    </div>
+            
+                    <div class="menu__plat">
+                        <div class="menu__plat__text">
+                            <h3>Fondant au chocolat</h3>
+                            <p>Revisité</p>
+                        </div>
+                        <div class="menu__plat__price">22€</div>
+                        <div class="menu__plat__check"></div>
+                    </div>
+            
+                    <div class="menu__plat">
+                        <div class="menu__plat__text">
+                            <h3>Millefeuille croustillant</h3>
+                            <p>Myrtilles et pâte d'amande</p>
+                        </div>
+                        <div class="menu__plat__price">23€</div>
+                        <div class="menu__plat__check"></div>
+                    </div>
+            
+                </section>
+
+                <!-- commander -->
+                <section class="description">
+                    <div class="description__button btn">
+                        <a href="#">Commander</a>
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
 
     </main>
 

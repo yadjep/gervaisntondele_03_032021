@@ -1,0 +1,37 @@
+.footer{
+	background-color: #353535;
+	line-height: 32px;
+
+  
+	&_items{
+		display:flex;
+		flex-direction: column;
+		padding: 18px;
+		max-width: 1250px;
+		margin-top: 50px;
+
+	}
+	
+	&_logo{
+		color: #fff;
+		font-family: roboto;
+		font-size: 20px;
+		margin: 0 0 16px;
+	}
+	
+	&_list{
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	&_link{
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	&_icon{
+		width: 10px;
+		margin-right: 8px;
+	}
+}

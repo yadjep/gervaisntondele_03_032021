@@ -1,0 +1,30 @@
+
+.loading-spinner{
+	position :fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom : 0;
+	background-color: aqua;
+	opacity: 1;
+	transform : scale(1.0);
+	animation : loading_frames 3s forwards;
+	z-index: 9999;
+
+	@keyframes loading_frames {
+		0%{
+			opacity : 1.0;
+		}
+		90%{
+			opacity : 1.0;
+		}
+		99%{
+			opacity : 0.0;
+			transform : scale(1.0);
+		}
+		100%{
+			opacity : 0.0;
+			transform : scale(0.0);
+		}
+	}
+}
