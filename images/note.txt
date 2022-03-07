@@ -1,0 +1,60 @@
+Tu peux noter ici
+
+.header{
+    .description{
+        &__button {
+                border: 0;
+				padding: 120 25px;
+				font-weight: 200px;
+				font-size: 180px;
+				border-radius: 100px;
+                color: #fff;
+				background-color: #686868;
+				cursor: pointer;
+				box-shadow: 40 40 10px rgba(0, 0, 0, 4);
+				background: linear-gradient(#f80,#f0f);
+				transition : background 0.25s ease-in-out;
+				&:hover{
+					background: linear-gradient(#fc5,#f8f);
+				}
+    }
+}
+
+.fonct{
+    padding: 32 16px;
+
+    .fonct__title {
+				margin-top: 0px;
+			}
+
+	.fonct__item {
+        background:#935dc;
+        height:25px;
+        width: 25px;
+        bordus-radius: 100px
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        position: absolute;
+        left: -50px;
+
+
+        .fonct__number {
+            
+        }
+       
+            &__fonct__number ::before {
+
+            
+        }
+
+        .fonct__icon {
+            
+        }
+
+        .fonct__name {
+            
+        }
+    }
+}
